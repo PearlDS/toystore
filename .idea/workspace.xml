@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be67bc26-2e6f-4c12-95e6-1fcea6fd5610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/services/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/barbie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/boglin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gijoe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/pokemon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/rarity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yugioh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/ToyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/ToyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/services/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,15 +42,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/WEB-INF" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\resources\WEB-INF" />
       <recent name="C:\Users\pearl\Documents\ToyStore\src\main\resources\static" />
       <recent name="C:\Users\pearl\Documents\ToyStore\src\main\webapp\WEB-INF\templates" />
       <recent name="C:\Users\pearl\Documents\ToyStore\src\main\java\applicationpackage\services" />
       <recent name="C:\Users\pearl\Documents\ToyStore\src\main\java\toystore\repositories" />
-      <recent name="C:\Users\pearl\Documents\ToyStore\src\main\java\toystore\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\resources\static\images" />
+      <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,6 +91,18 @@
       <option name="presentableId" value="Default" />
       <updated>1606377896978</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated everything">
+      <created>1636971248903</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636971248903</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated everything" />
   </component>
 </project>
