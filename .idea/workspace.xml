@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be67bc26-2e6f-4c12-95e6-1fcea6fd5610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/controllers/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/barbie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/boglin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gijoe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/pokemon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/rarity.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yugioh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +20,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,6 +48,8 @@
       <recent name="C:\Users\pearl\Documents\ToyStore\src\main\java\toystore\repositories" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\resources\static\" />
+      <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\webapp\WEB-INF\templates" />
       <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\resources\static\images" />
       <recent name="C:\Users\pearl\Downloads\ToyStore (1) - Copy\ToyStore\src\main\webapp" />
     </key>
@@ -98,11 +95,19 @@
       <option name="project" value="LOCAL" />
       <updated>1636971248903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated images">
+      <created>1636982149806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636982149806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated everything" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated everything" />
+    <MESSAGE value="updated images" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated images" />
   </component>
 </project>
