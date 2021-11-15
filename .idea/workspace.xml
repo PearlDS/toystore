@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be67bc26-2e6f-4c12-95e6-1fcea6fd5610" name="Default Changelist" comment="" />
+    <list default="true" id="be67bc26-2e6f-4c12-95e6-1fcea6fd5610" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/ToyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/ToyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/applicationpackage/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/applicationpackage/services/ProductService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,17 +24,23 @@
       <list>
         <option value="FxmlFile" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1korgb4mw6kl0LGDgEJxZKnkG0G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
   </component>
   <component name="RecentsManager">
@@ -39,8 +54,10 @@
   </component>
   <component name="RunManager">
     <configuration name="ToyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="applicationpackage.ToyApp" />
-      <module name="ToyStore" />
+      <module name="toystore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="applicationpackage.*" />

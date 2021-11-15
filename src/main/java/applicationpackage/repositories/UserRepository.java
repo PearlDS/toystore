@@ -8,7 +8,7 @@ import applicationpackage.data.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-    public User findUserByUserNameAndPassWord(String userName, String passWord);
+    User findUserByUserNameAndPassWord(String userName, String passWord);
 
 
 
