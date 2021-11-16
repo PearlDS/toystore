@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 public class UserController {
 
@@ -23,15 +25,18 @@ public class UserController {
         return "login";
     }
 
-    @PostMapping("login2")
-    public String reDiederiektToLoginPage(@ModelAttribute("user") User userReceived){
+    @PostMapping("login")
+    public String reDiederiektToLoginPage(@ModelAttribute("user") User userReceived, HttpSession session){
         System.out.println(userReceived.getUserName());
         System.out.println(userReceived.getPassWord());
 
         User user = userService.getUserByUserNameAndPassWord(userReceived.getUserName(), userReceived.getPassWord());
 
-        if(user!=null) return "test";
-        else return "login";
+        if(user!=null) {
+            session.setAttribute("currentUser", user.getUserName());
+            return "redirect:hi";
+        }
+        else return "redirect:login";
     }
 
 
