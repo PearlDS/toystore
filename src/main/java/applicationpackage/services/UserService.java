@@ -16,7 +16,7 @@ public class UserService {
         userRepository.save(user);
     }
 
-    public User getUserByPassWordAndUserName(String userName, String passWord){
+    public User getUserByUserNameAndPassWord(String userName, String passWord){
         return userRepository.findUserByUserNameAndPassWord(userName,passWord);
     }
 

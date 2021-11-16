@@ -17,6 +17,7 @@ public class ProductServiceImpl implements ProductService {
 
     public void createProduct(Product product){
         productRepository.save(product);
+
     }
 
     public List <Product> getAllProducts(){
